@@ -1,2 +1,5 @@
 exported_models
 __pycache__
+OUT_MASKS
+sample_images
+.ipynb_checkpoints

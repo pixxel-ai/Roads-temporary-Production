@@ -31,7 +31,7 @@ def get_prediction(model, image, resize_to):
         return model.predict(image)[0]
 
 
-def process(model, in_folder, out_folder, imsize=224, resize_to=-1, logger: logging.Logger):
+def process(model, in_folder, out_folder, imsize, resize_to, logger: logging.Logger):
     """
     Generates mask for each image in `in_folder` and stores them in `out_folder` using `model`
 
@@ -42,12 +42,12 @@ def process(model, in_folder, out_folder, imsize=224, resize_to=-1, logger: logg
     :param resize_to: output mask size (as in get_prediction)
     :return: No return value
     """
-    logger.info("NOW MAKING PREDICTIONS")
+    logger.info("\n \n \n NOW MAKING PREDICTIONS \n \n")
     for f in tqdm(in_folder.iterdir()):
         image = get_image(f, imsize=imsize)
         if image == 'skip':
             if logger:
-                logger.info("SKIPPED : " + str(f))
+                logger.debug("SKIPPED : " + str(f))
             continue
         else:
             pred = get_prediction(model, image, resize_to)

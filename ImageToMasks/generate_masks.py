@@ -14,13 +14,14 @@ import argparse
 from pathlib import Path
 import datetime
 import logging
-from .predict import *
+from predict import *
 # -------- Setting up logging -------- #
 logger = logging.getLogger(__name__)
-f_handler = logging.FileHandler('logs.log', filemode='w')
+f_handler = logging.FileHandler('logs.log', 'w')
 f_formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 f_handler.setFormatter(f_formatter)
 logger.addHandler(f_handler)
+logger.setLevel(logging.DEBUG)
 
 curr_time = datetime.datetime.now().__str__()
 logger.info("######################--" + curr_time + "--#####################")
@@ -48,8 +49,8 @@ def get_arguments():
     out_folder = Path(arguments.out_folder); log_value('out_folder')
     model_imsize = int(arguments.model_imsize); log_value('model_imsize')
     resize_to = int(arguments.resize_to); log_value('resize_to')
-
-    logging
+    
+    out_folder.mkdir(exist_ok=True)
 
 
 if __name__ == '__main__':
