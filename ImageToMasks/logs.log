@@ -1,0 +1,7 @@
+INFO:root:######################--2019-05-23 14:57:15.519523--#####################
+INFO:root:######################--2019-05-23 14:57:17.725118--#####################
+INFO:root:model_path : abc
+INFO:root:in_folder : def
+INFO:root:out_folder : ghi
+INFO:root:model_imsize : 123
+INFO:root:resize_to : 321

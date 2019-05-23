@@ -9,6 +9,7 @@ out_folder : Path to output masks to
 Outputs:
 Predicted masks for each image in `out_folder`
 """
+from fastai.vision import *
 import argparse
 from pathlib import Path
 import datetime
@@ -53,4 +54,8 @@ def get_arguments():
 
 if __name__ == '__main__':
     get_arguments()
-    process(model_path, in_folder, out_folder, model_imsize, resize_to, logger)
+
+    # Loading trained fastai model
+    model = load_learner(model_path.parent, model_path.name)
+
+    process(model, in_folder, out_folder, model_imsize, resize_to, logger)
