@@ -14,7 +14,9 @@ import argparse
 from pathlib import Path
 import datetime
 import logging
-from predict import *
+from ImageToMasks.predict import *
+import sys
+sys.path.append('/home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/')
 # -------- Setting up logging -------- #
 logger = logging.getLogger(__name__)
 f_handler = logging.FileHandler('logs.log', 'w')

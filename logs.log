@@ -1,0 +1,52 @@
+2019-05-23 11:11:10,055 - __main__ - INFO - ######################--2019-05-23 11:11:10.055543--#####################
+2019-05-23 11:11:10,056 - __main__ - INFO - model_path : /home/akash/Roads/Models/Roads-temporary-Production/exported_models/Perceptual_r34_224_10
+2019-05-23 11:11:10,057 - __main__ - INFO - in_folder : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images
+2019-05-23 11:11:10,057 - __main__ - INFO - out_folder : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/OUT_MASKS
+2019-05-23 11:11:10,057 - __main__ - INFO - model_imsize : 224
+2019-05-23 11:11:10,057 - __main__ - INFO - resize_to : -1
+2019-05-23 11:11:13,688 - __main__ - INFO - 
+ 
+ 
+ NOW MAKING PREDICTIONS 
+ 
+
+2019-05-23 11:11:13,775 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/566430.png
+2019-05-23 11:11:13,836 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/534866.png
+2019-05-23 11:11:13,897 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/836613.png
+2019-05-23 11:11:13,960 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/231652.png
+2019-05-23 11:11:14,018 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/825884.png
+2019-05-23 11:11:14,078 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/168410.png
+2019-05-23 11:11:14,137 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/472031.png
+2019-05-23 11:11:14,203 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_288.png
+2019-05-23 11:11:14,264 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/299828.png
+2019-05-23 11:11:14,330 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_894.png
+2019-05-23 11:11:14,394 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/239044.png
+2019-05-23 11:11:14,454 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/628060.png
+2019-05-23 11:11:14,516 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/169237.png
+2019-05-23 11:11:14,574 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/15237.png
+2019-05-23 11:11:14,643 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Vegas_208.png
+2019-05-23 11:11:14,701 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/463826.png
+2019-05-23 11:11:14,765 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/130967.png
+2019-05-23 11:11:14,833 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/197342.png
+2019-05-23 11:11:14,894 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/422415.png
+2019-05-23 11:11:14,955 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/359304.png
+2019-05-23 11:11:15,025 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_845.png
+2019-05-23 11:11:15,087 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/877088.png
+2019-05-23 11:11:15,156 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Paris_389.png
+2019-05-23 11:11:15,226 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_177.png
+2019-05-23 11:11:15,292 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/336648.png
+2019-05-23 11:11:15,349 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/801557.png
+2019-05-23 11:11:15,418 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_1249.png
+2019-05-23 11:11:15,478 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/681238.png
+2019-05-23 11:11:15,536 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/430950.png
+2019-05-23 11:11:15,595 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/340116.png
+2019-05-23 11:11:15,653 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/725249.png
+2019-05-23 11:11:15,711 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/717181.png
+2019-05-23 11:11:15,770 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/843188.png
+2019-05-23 11:11:15,837 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_65.png
+2019-05-23 11:11:15,896 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/938881.png
+2019-05-23 11:11:15,963 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_1622.png
+2019-05-23 11:11:16,024 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/624745.png
+2019-05-23 11:11:16,084 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/783991.png
+2019-05-23 11:11:16,142 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/607242.png
+2019-05-23 11:11:16,209 - __main__ - INFO - PROCESSED : /home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/sample_images/Shanghai_955.png
