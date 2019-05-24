@@ -12,15 +12,15 @@ graphs_output: Path to file (without extension) to which graphs will be output
                Graphs generated for each mask in `graphs_output.txt`
 """
 
-from fastai.vision import load_learner
+# from fastai.vision import *
 import argparse
 from pathlib import Path
-from datetime import datetime.now as now
+from datetime import datetime
 import logging
-from ImageToMasks.predict import *
-import sys.path
-import os.system
-sys.path.append('/home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/')
+# from ImageToMasks.predict import *
+from sys import path
+from os import system
+path.append('/home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/')
 
 
 # -------- Set up logging -------- #
@@ -33,24 +33,22 @@ f_handler.setFormatter(f_formatter)
 logger.addHandler(f_handler) # Attach all the above configuration to the logger object
 logger.setLevel(logging.DEBUG) # Makes sure all kinds of information is logged.
 
-curr_time = now().__str__()
+curr_time = datetime.now().__str__()
 logger.info("\n\n\n######################--" + curr_time + "--#####################")
 
 
-def log_value(name: str, logger=logger):
+def log_value(name: str, value, logger=logger):
     """
     Logs value of global variable called `name`
     :param name: Name of GLOBAL variable in string format
+    :param value: value of `name` variable
     :return: The string logged (without formatting) if logging is successful.
              -1 otherwise.
     """
     # todo: Write tests
-    try:
-        to_log = name + ' : ' + str(globals()[name])
-        logger.info(to_log)
-        return to_log
-    except:
-        return -1
+    to_log = name + ' : ' + str(value)
+    logger.info(to_log)
+    return to_log
 # ------------------------------------ #
 
 
@@ -75,13 +73,13 @@ def get_arguments():
 
     global model_path, in_folder, out_folder, model_imsize, resize_to, graphs_output
 
-    model_path = Path(arguments.model_path);log_value('model_path')
-    in_folder = Path(arguments.in_folder); log_value('in_folder')
-    out_folder = Path(arguments.out_folder); log_value('out_folder')
+    model_path = Path(arguments.model_path);log_value('model_path', model_path)
+    in_folder = Path(arguments.in_folder); log_value('in_folder', in_folder)
+    out_folder = Path(arguments.out_folder); log_value('out_folder', out_folder)
     out_folder.mkdir(exist_ok=True)
-    model_imsize = int(arguments.model_imsize); log_value('model_imsize')
-    graphs_output = Path(arguments.graphs_output); log_value('graphs_output')
-    resize_to = int(arguments.resize_to); log_value('resize_to')
+    model_imsize = int(arguments.model_imsize); log_value('model_imsize', model_imsize)
+    graphs_output = Path(arguments.graphs_output); log_value('graphs_output', graphs_output)
+    resize_to = int(arguments.resize_to); log_value('resize_to', resize_to)
 
 
 if __name__ == '__main__':

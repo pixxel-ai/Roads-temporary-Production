@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b298f91-1a15-4657-a2e6-5c7e30207336" name="Default Changelist" comment="bug fixes in generate_masks.py&#10;Added logs.log file">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/akash.xml" afterDir="false" />
+    <list default="true" id="0b298f91-1a15-4657-a2e6-5c7e30207336" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_log_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Roads-temporary-Production.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Roads-temporary-Production.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageToMasks/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageToMasks/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskToGraph/mask_to_graph_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/MaskToGraph/mask_to_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_masks.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_predictions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_predictions.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_predictions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,22 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate_predictions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="1470">
+              <caret line="81" column="71" lean-forward="true" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
               <folding>
-                <element signature="e#580#607#0" expanded="true" />
+                <element signature="e#611#626#0" expanded="true" />
+                <element signature="e#1519#1877#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageToMasks/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="966">
               <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
@@ -81,8 +83,11 @@
         <option value="$PROJECT_DIR$/MaskToGraph/__init__.py" />
         <option value="$PROJECT_DIR$/ImageToMasks/generate_masks.py" />
         <option value="$PROJECT_DIR$/generate_masks.py" />
-        <option value="$PROJECT_DIR$/generate_predictions.py" />
         <option value="$PROJECT_DIR$/ImageToMasks/predict.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/generate_predictions.py" />
+        <option value="$PROJECT_DIR$/tests/test_log_value.py" />
       </list>
     </option>
   </component>
@@ -113,6 +118,15 @@
               <item name="Roads-temporary-Production" type="462c0819:PsiDirectoryNode" />
               <item name="MaskToGraph" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Roads-temporary-Production" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Roads-temporary-Production" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -122,12 +136,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generate_masks (1)">
+  <component name="RunManager" selected="Python tests.pytest in test_log_value.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Roads-temporary-Production" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,13 +245,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Roads-temporary-Production" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_log_value.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Roads-temporary-Production" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_log_value.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Roads-temporary-Production" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.generate_masks with parameters" />
       <item itemvalue="Python.generate_masks" />
       <item itemvalue="Python.generate_masks (1)" />
+      <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python.scratch_3" />
+      <item itemvalue="Python tests.pytest in test_log_value.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_log_value.py" />
+        <item itemvalue="Python tests.pytest in tests" />
+        <item itemvalue="Python.scratch_3" />
         <item itemvalue="Python.generate_masks (1)" />
         <item itemvalue="Python.generate_masks" />
       </list>
@@ -255,7 +327,7 @@
       <workItem from="1558434407186" duration="820000" />
       <workItem from="1558506863034" duration="1394000" />
       <workItem from="1558590288521" duration="8324000" />
-      <workItem from="1558677911089" duration="5336000" />
+      <workItem from="1558677911089" duration="11321000" />
     </task>
     <task id="LOCAL-00001" summary="Added generate_masks.py&#10;Added predict.py&#10;Added logging">
       <created>1558606236115</created>
@@ -271,11 +343,50 @@
       <option name="project" value="LOCAL" />
       <updated>1558606878777</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added graphs functionality&#10;Refactored files&#10;Cleaned imports&#10;Documentation improved">
+      <created>1558684078105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558684078105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_tests - 2019.05.24 at 15h 18m 01s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 28m 55s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 29m 14s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 40m 16s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 41m 04s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 41m 40s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 42m 15s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 44m 30s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2019.05.24 at 15h 56m 23s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_log_value_py - 2019.05.24 at 15h 58m 06s.xml">
+      <configuration name="pytest in test_log_value.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15874000" />
+    <option name="totallyTimeSpent" value="21859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,15 +401,15 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" weight="0.41400492" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34398034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.114250615" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.03685504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923833" />
@@ -307,8 +418,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3243243" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Jupyter" order="11" visible="true" weight="0.24201474" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.17936118" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.03685504" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.492629" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.05282555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,15 +476,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added generate_masks.py&#10;Added predict.py&#10;Added logging" />
     <MESSAGE value="bug fixes in generate_masks.py&#10;Added logs.log file" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixes in generate_masks.py&#10;Added logs.log file" />
+    <MESSAGE value="Added graphs functionality&#10;Refactored files&#10;Cleaned imports&#10;Documentation improved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added graphs functionality&#10;Refactored files&#10;Cleaned imports&#10;Documentation improved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Roads_temporary_Production$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1558693580735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Roads_temporary_Production$generate_masks.coverage" NAME="generate_masks Coverage Results" MODIFIED="1558601190490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ImageToMasks" />
     <SUITE FILE_PATH="coverage/Roads_temporary_Production$generate_masks__1_.coverage" NAME="generate_masks (1) Coverage Results" MODIFIED="1558679766494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Roads_temporary_Production$generate_masks_with_parameters.coverage" NAME="generate_masks with parameters Coverage Results" MODIFIED="1558602910111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ImageToMasks" />
+    <SUITE FILE_PATH="coverage/Roads_temporary_Production$pytest_in_test_log_value_py.coverage" NAME="pytest in test_log_value.py Coverage Results" MODIFIED="1558693684292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>globals()['anInt']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>anInt</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>name_str</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>globals()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>logging.info()</expression-string>
         <language-id>Python</language-id>
@@ -386,11 +520,6 @@
       </expression>
       <expression>
         <expression-string>globals()['model_path']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>globals()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -465,22 +594,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generate_predictions.py">
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/fastai-cpu/lib/python3.7/site-packages/_pytest/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-          <folding>
-            <element signature="e#580#607#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/fastai-cpu/lib/python3.7/site-packages/pluggy/callers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/fastai-cpu/lib/python3.7/site-packages/pluggy/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/fastai-cpu/lib/python3.7/site-packages/pluggy/hooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="288" selection-start-line="288" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/fastai-cpu/lib/python3.7/site-packages/_pytest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/fastai-cpu/lib/python3.7/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29799">
+          <caret line="1466" selection-start-line="1466" selection-end-line="1466" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_log_value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageToMasks/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="966">
           <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_predictions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="81" column="71" lean-forward="true" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
+          <folding>
+            <element signature="e#611#626#0" expanded="true" />
+            <element signature="e#1519#1877#0" />
           </folding>
         </state>
       </provider>
