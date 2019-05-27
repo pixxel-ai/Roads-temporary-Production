@@ -1,10 +1,10 @@
 """
 Generates masks and graphs for each image in a given folder using a trained Fastai model.
    Parameters:
-      imsize : Model Image Size (not output image size)
   model_path : Path of the Fastai model file
    in_folder : Path containing images to predict on
   out_folder : Path to output masks to
+      model_imsize : Model Image Size (not output image size)
 graphs_output: Path to file (without extension) to which graphs will be output
    resize_to : [OPTIONAL] Output image size of masks and graphs
 
