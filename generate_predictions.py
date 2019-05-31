@@ -12,12 +12,12 @@ graphs_output: Path to file (without extension) to which graphs will be output
                Graphs generated for each mask in `graphs_output.txt`
 """
 
-# from fastai.vision import *
+from fastai.vision import *
 import argparse
 from pathlib import Path
 from datetime import datetime
 import logging
-# from ImageToMasks.predict import *
+from ImageToMasks.predict import *
 from sys import path
 from os import system
 path.append('/home/akash/Roads/Models/Roads-temporary-Production/ImageToMasks/')
